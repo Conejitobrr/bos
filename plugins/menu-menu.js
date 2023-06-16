@@ -81,12 +81,16 @@ ${readMore}
 ┣ ඬ⃟ 🎖️ _${usedPrefix}slot *<apuesta>*_
 ┣ ඬ⃟ 🎖️ _${usedPrefix}ttt *<nombre sala>*_
 ┣ ඬ⃟ 🎖️ _${usedPrefix}delttt_
+┣ ඬ⃟ 🎖️ _${usedPrefix}deathnote_
+┣ ඬ⃟ 🎖️ _${usedPrefix}amigorandom_
 ┣ ඬ⃟ 🎖️ _${usedPrefix}acertijo_
 ┣ ඬ⃟ 🎖️ _${usedPrefix}simi *<texto>*_
 ┣ ඬ⃟ 🎖️ _${usedPrefix}top *<texto>*_
 ┣ ඬ⃟ 🎖️ _${usedPrefix}topgays_
 ┣ ඬ⃟ 🎖️ _${usedPrefix}topotakus_
 ┣ ඬ⃟ 🎖️ _${usedPrefix}formarpareja_
+┣ ඬ⃟ 🎖️ _${usedPrefix}formarparejas_
+┣ ඬ⃟ 🎖️ _${usedPrefix}violar_
 ┣ ඬ⃟ 🎖️ _${usedPrefix}verdad_
 ┣ ඬ⃟ 🎖️ _${usedPrefix}reto_
 ┣ ඬ⃟ 🎖️ _${usedPrefix}cancion_
