@@ -2,10 +2,10 @@ let handler = m => m
 handler.all = async function (m, {conn}) {
 let chat = global.db.data.chats[m.chat]
 
-if (/^Compartan|compartam$/i.test(m.text) && chat.audios && !chat.isBanned) {
+if (!chat.isBanned && chat.audios && m.text.match(/(Compartan|compartam)/gi)) {
 let vn = './media/Compartan.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
-this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })}    
+this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })}
 
 if (chat.audios && m.text.match(/(Tia|tia|Tía|tía)/gi)) {
 let vn = './media/Tia.mp3'
